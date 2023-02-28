@@ -25,7 +25,7 @@ submitBtn_label.style.display = 'none';
 image_input.style.display = 'none';
 image_input_label.style.display = 'none';
 
-const assetsURL= window.location.origin+'/ci/assets'
+const assetsURL= window.location.origin+'/crime/assets'
 
 var available_users = 0;
 let izina='';

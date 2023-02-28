@@ -9,6 +9,14 @@
 	$this->load->view('crime/pages/user/user_page_blocks/miniMenu'); 	// call miniMenu
 
 ?>
+
+
+	<?php 
+		if(isset($error))
+		{ 
+			echo '<h3>'.$error.'</h3>';
+		}
+	?>
 	<div id="para">
 		<h2 color="red"> User page</h2>
 	</div>

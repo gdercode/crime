@@ -10,8 +10,9 @@ class CrimeController extends CI_Controller  						// main controller
 	 	$this->load->model('crime/Crime_model','crimeManager');		// for model with an other name
 	 	
 	 	$this->session->set_userdata('adminpagePermit', '80');
-	 	$this->session->set_userdata('crimepagePermit', '50');
-	 	$this->session->set_userdata('homepagePermit', '30');
+		 $this->session->set_userdata('testmonypagePermit', '50');
+		 $this->session->set_userdata('crimepagePermit', '2');
+	 	$this->session->set_userdata('homepagePermit', '2');
 
 	 	$this->add_super_admin();
 	}

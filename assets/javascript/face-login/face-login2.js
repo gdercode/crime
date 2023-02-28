@@ -1,7 +1,7 @@
     // for video
     
 // for constant variables 
-const assetsURL= window.location.origin+'/ci/assets'
+const assetsURL= window.location.origin+'/crime/assets'
 const video = document.getElementById('videoInput')
 const viewBtn = document.getElementById('submitBtn')
 const viewBtn_label = document.getElementById('submitBtn-label')
