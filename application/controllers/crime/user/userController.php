@@ -534,9 +534,8 @@ public function manipulate_role_c()
 						$data['error']="A User account created successfully"; 												// set a success message
 					}	
 				}
-				
-				
 			}
+			$this->load->view('crime/pages/user/registration_page',$data);
 		}
 		else
 		{
